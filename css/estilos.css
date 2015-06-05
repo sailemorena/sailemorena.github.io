@@ -1,0 +1,215 @@
+body
+{
+	font-family: Verdana;
+	margin: 0 auto;
+	max-width: 1024px;
+	background: black;
+}
+header
+{
+	text-align: center;
+	background: black;
+}
+footer
+{
+	background: black;
+	color: white;
+	text-align: center;
+	height: 50px;
+}
+footer section
+{
+	font-family: Verdana;
+	font-size: 1em;
+	padding-top: 15px;
+}
+h1
+{
+	text-align: center;
+	font-weight: bold;
+}
+/*Empiezan las clases personalizadas*/
+#divName
+{
+	color: white;
+	position: absolute;
+	margin-top: -650px;
+	font-size: 3em;
+	margin-left: 100px;
+}
+#artDatos
+{
+	max-width: 500px;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+}
+#sectionDatos
+{
+	display: none;
+	margin: 0 auto;
+	width: 350px;	
+}
+#imgPerfil
+{
+	margin-top: 30px;
+	max-width: 100%;
+}
+#imgPracticas
+{
+	display: inline-block;
+	width: 100%;
+}
+#artFinal
+{
+	text-align: center;
+	max-width: 100%;
+}
+#artPracticas
+{
+	display: inline-block;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 1.5em;
+	width: 45%;
+	margin: 10px 10px 10px 10px;
+}
+#menuCelular
+{
+	display: none;
+}
+#artInicio
+{
+	font-family: Verdana;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	max-width: 100%;
+}
+#imgBack
+{
+	max-width: 100%;
+}
+#titulo
+{
+	font-family: Verdana;
+	font-weight: bold;
+}
+#artRegresar
+{
+	text-align: center;
+}
+#imgFooter
+{
+
+}
+/*Media Querys*/
+
+@media screen and (min-width: 480px) and (max-width: 640px){
+	body
+	{
+		width: 100%;
+	}
+	header
+	{
+		font-size: 0.5em;
+		width: 100%;
+	}
+	section article
+	{
+		display: block;
+		width: 100%;
+	}
+	header nav
+	{
+		display: none;
+	}
+	#divName
+	{
+		color: white;
+		position: absolute;
+		margin-top: -200px;
+		margin-left: 20px;
+		font-size: 125px;
+	}
+	#menuCelular
+	{
+		display: block;
+		width: 100%;
+	}
+	#imgPracticas
+	{
+		display: block;
+		width: 100%;
+	}
+	#artPracticas
+	{
+		display: block;
+		font-size: 1em;
+		width: 100%;
+	}
+	#titulo
+	{
+		display: block;
+		font-family: Verdana;
+		max-width: 100%;
+	}
+		#sectionPracticas article h1
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 940px){
+	body
+	{
+		width: 100%;
+	}
+	header
+	{
+		font-size: 0.5em;
+		width: 100%;
+	}
+	section article
+	{
+		display: block;
+		width: 100%;
+	}
+	header nav
+	{
+		display: none;
+	}
+	#sectionPracticas article h1
+	{
+		font-size: 20px;
+	}
+	#menuCelular
+	{
+		display: block;
+		width: 100%;
+	}
+	#imgPracticas
+	{
+		display: block;
+		width: 100%;
+	}
+	#divName
+{
+	color: white;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 20px;
+	font-size: 25px;
+}
+	#artPracticas
+	{
+		display: block;
+		font-size: 1em;
+		width: 100%;
+	}
+	#titulo
+	{
+		display: block;
+		font-family: Verdana;
+		max-width: 100%;
+	}
+}
